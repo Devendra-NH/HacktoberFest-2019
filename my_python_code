@@ -1,8 +1,7 @@
 def divisible_by_ten(nums):
     count = 0
     for i in nums:
-        
-        if (i%10==0):
+        if i % 10 == 0:
             count= count+1
     return count
 
